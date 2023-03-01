@@ -13,7 +13,7 @@ builder.Services.AddCors(options =>
         builder
         .AllowAnyMethod()
         .AllowAnyHeader()
-        .WithOrigins("http://localhost:3000", "https://aspname.asurestaticapps.net");
+        .WithOrigins("http://localhost:3000", "https://witty-pond-013c7cd03.2.azurestaticapps.net/");
     });
 });
 
